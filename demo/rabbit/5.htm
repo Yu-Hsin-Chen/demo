@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="./rewrote.js"></script>
+		<!-- Tocas UI：CSS 與元件 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.css">
+		<!-- Tocas JS：模塊與 JavaScript 函式 -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.js"></script>
+	</head>
+	<body>
+		<center>
+			<div class="ts text container">	
+			<b>台語測驗②</b>
+			</br>
+			題目：「我想欲食煙腸」安怎寫？
+			<span class="HuatIm">
+				<audio id="test-2"><source type="audio/ogg" src="../taigi/test-2.ogg"></audio>
+				<button class="ts circular mini icon button" onclick="document.getElementById('test-2').play()"><i class="icon play"></i></button>
+			</span>
+			</br>
+			排序： 1 煙腸、 2 我、 3 欲、 4 食、 5 想　（請輸入數字）
+			</br>
+				<div class="ts form">
+					<div class="field">
+					請輸入數字排序：<input type="text" id="answer" value="">
+					</div>
+				</div>
+			</br>
+			<input type=button class="ts small button" value=確認 onclick=check() >
+			</div>
+		</center>
+	</body>
+</html>

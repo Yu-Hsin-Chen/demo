@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="./check.js"></script>
+		<!-- Tocas UI：CSS 與元件 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.css">
+		<!-- Tocas JS：模塊與 JavaScript 函式 -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.js"></script>
+	</head>
+	<body>
+		<center>
+			<div class="ts text container">	
+				<b>台語測驗①</b>
+				</br>
+				題目：「你可以幫幫我的忙嗎？」
+				</br>
+				<div class="ts bottom vertical menu compact horizontal checkboxes">
+					<div class="ts top header item radio checkbox">
+						<input type="radio" name="select" value="0" id="0">
+						<label for="0">「借問咱蹛佗一跡？」（Tsioh-mn̄g lán tuà tó tsi̍t jiah?）</label>
+						<audio id="test-1-1"><source type="audio/ogg" src="../taigi/test-1-1.ogg"></audio>
+						<button class="ts circular mini icon button" onclick="document.getElementById('test-1-1').play()"><i class="icon play"></i></button>
+					</div>
+					<div class="ts item radio checkbox">
+						<input type="radio" name="select" value="1" id="1">
+						<label for="1">「恁這久敢猶咧上班？」（Lín tsit-kú kám iá leh siōng-pan?）</label>
+						<audio id="test-1-2"><source type="audio/ogg" src="../taigi/test-1-2.ogg"></audio>
+						<button class="ts circular mini icon button" onclick="document.getElementById('test-1-2').play()"><i class="icon play"></i></button>						
+					</div>
+					<div class="ts item radio checkbox">
+						<input type="radio" name="select" value="2" id="2">
+						<label for="2">「來共我鬥相共好毋？」（Lâi kā guá tàu-sann-kāng hó--m̄?）</label>
+						<audio id="test-1-3"><source type="audio/ogg" src="../taigi/test-1-3.ogg"></audio>
+						<button class="ts circular mini icon button" onclick="document.getElementById('test-1-3').play()"><i class="icon play"></i></button>							
+					</div>
+					<div class="ts item radio checkbox">
+						<input type="radio" name="select" value="3" id="3">
+						<label for="3">「這个人你捌抑毋捌？」（Tsit ê lâng lí bat iah m̄ bat?）</label>
+						<audio id="test-1-4"><source type="audio/ogg" src="../taigi/test-1-4.ogg"></audio>
+						<button class="ts circular mini icon button" onclick="document.getElementById('test-1-4').play()"><i class="icon play"></i></button>							
+					</div>
+				</div>				
+				</br>
+				<input type=button class="ts small button" value="檢查" onclick=check()>
+			</div>
+		</center>
+	</body>
+</html>
+		
